@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kpos7.loginscreen.Profile"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/profilepic"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:padding="1dp"
+            android:scaleType="fitCenter"
+            android:src= "@drawable/profilepicture"
+            android:elevation="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="User Name"
+                tools:text="UserNAME" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Payment method" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="64dp"
+                android:layout_height="match_parent"
+                android:text="View"
+                tools:text="view" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="response" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:isIndicator="false"
+                android:numStars="5"
+                android:stepSize="3" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="64dp"
+                    android:layout_height="match_parent"
+                    android:text="view"
+                    tools:text="view" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="response" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:isIndicator="false"
+                    android:numStars="5"
+                    android:stepSize="3" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="64dp"
+                    android:layout_height="match_parent"
+                    android:text="View"
+                    tools:text="view" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="response" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:isIndicator="false"
+                    android:numStars="5"
+                    android:stepSize="3" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/HOME2"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="Home" />
+
+        <Button
+            android:id="@+id/profile2"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Profile" />
+
+        <Button
+            android:id="@+id/ORDER2"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="order" />
+
+        <Button
+            android:id="@+id/SETTING2"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="setting" />
+    </LinearLayout>
+
+</LinearLayout>

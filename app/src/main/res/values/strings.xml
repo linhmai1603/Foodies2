@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Login Screen</string>
+    <string name="foodies_name">Foodies</string>
+    <string name="simpleline_name">Simple mobile application for Drexel.</string>
+    <string name="or_text">or</string>
+    <string name="textview_email">Email</string>
+    <string name="textview_password">Password</string>
+    <string name="textview_register">Register</string>
+    <string name="textview_forgetpassword">I have forgotten my password.</string>
+    <string name="title_activity_main_vendor_screen">MainVendorScreen</string>
+    <string name="user_name">User Name</string>
+    <string name="payment_method">Cash</string>
+    <string name="button_editMenu">Edit Menu</string>
+    <string name="button_logout">Logout</string>
+    <string name="button_editLocation">Edit Location</string>
+    <string name="button_orders">Orders</string>
+    <string name="buttoon_reviews">Reviews</string>
+</resources>

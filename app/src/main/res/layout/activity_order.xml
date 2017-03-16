@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.kpos7.loginscreen.Order">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <MultiAutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/view1"
+                android:layout_width="64dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.93"
+                tools:text="view status" />
+
+            <Button
+                android:id="@+id/pay1"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="pay" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/view2"
+                    android:layout_width="64dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.93"
+                    tools:text="view status" />
+
+                <Button
+                    android:id="@+id/pay2"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:text="pay" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/view3"
+                    android:layout_width="64dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.93"
+                    tools:text="view status" />
+
+                <Button
+                    android:id="@+id/pay3"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:text="pay" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <MultiAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/view4"
+                    android:layout_width="64dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.93"
+                    tools:text="view status" />
+
+                <Button
+                    android:id="@+id/pay4"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:text="pay" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ctu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="connect to us" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/HOME3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="64dp"
+                    android:text="Home" />
+
+                <Button
+                    android:id="@+id/profile3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Profile" />
+
+                <Button
+                    android:id="@+id/ORDER3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="58dp"
+                    android:text="Order" />
+
+                <Button
+                    android:id="@+id/SETTING3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="58dp"
+                    android:text="SETTING" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

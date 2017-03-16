@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kpos7.loginscreen.Map"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="440dp"
+        android:layout_weight="0.87">
+
+        <ImageView
+            android:id="@+id/mapView2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/HOME1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Home" />
+
+        <Button
+            android:id="@+id/profile1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Profile" />
+
+        <Button
+            android:id="@+id/ORDER1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="order" />
+
+        <Button
+            android:id="@+id/SETTING1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="setting"/>
+    </LinearLayout>
+
+</LinearLayout>
