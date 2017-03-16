@@ -2,7 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="D:/Program Files" vcs="Git" />
-    <mapping directory="D:/Program Files/Drexel/CI102" vcs="Git" />
   </component>
 </project>

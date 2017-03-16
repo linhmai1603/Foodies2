@@ -12,7 +12,7 @@
             android:id="@+id/SellerSelectionButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="selectCustomer"
+            android:onClick="selectVendor"
             android:text="Seller" />
 
 
@@ -20,6 +20,6 @@
             android:id="@+id/BuyerSelectionButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="selectVendor"
+            android:onClick="selectCustomer"
             android:text="Buyer" />
 </LinearLayout>
