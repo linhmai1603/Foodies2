@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.kpos7.loginscreen.DisplayOrders">
+    tools:context="com.example.kpos7.Foodies.DisplayOrders">
     <EditText
         android:id="@+id/editText"
         android:layout_width="303dp"

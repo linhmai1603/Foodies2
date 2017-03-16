@@ -1,4 +1,4 @@
-package com.example.kpos7.loginscreen;
+package com.example.kpos7.Foodies;
 
 import org.junit.Test;
 

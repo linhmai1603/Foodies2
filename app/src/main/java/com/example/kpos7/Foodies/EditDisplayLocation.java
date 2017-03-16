@@ -1,13 +1,13 @@
-package com.example.kpos7.loginscreen;
+package com.example.kpos7.Foodies;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class DisplayOrders extends AppCompatActivity {
+public class EditDisplayLocation extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_display_orders);
+        setContentView(R.layout.activity_edit_display_location);
     }
 }

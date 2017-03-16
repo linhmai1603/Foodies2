@@ -1,4 +1,4 @@
-package com.example.kpos7.loginscreen;
+package com.example.kpos7.Foodies;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

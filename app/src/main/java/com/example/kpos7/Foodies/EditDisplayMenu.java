@@ -1,4 +1,4 @@
-package com.example.kpos7.loginscreen;
+package com.example.kpos7.Foodies;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

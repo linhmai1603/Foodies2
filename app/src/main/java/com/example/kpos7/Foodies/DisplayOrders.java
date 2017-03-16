@@ -1,13 +1,13 @@
-package com.example.kpos7.loginscreen;
+package com.example.kpos7.Foodies;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class DisplayReviewRatings extends AppCompatActivity {
+public class DisplayOrders extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_display_review_ratings);
+        setContentView(R.layout.activity_display_orders);
     }
 }

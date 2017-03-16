@@ -1,12 +1,8 @@
-package com.example.kpos7.loginscreen;
+package com.example.kpos7.Foodies;
 
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
-import android.graphics.drawable.Icon;
-import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
