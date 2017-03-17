@@ -53,72 +53,64 @@
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="FOOD TRUCK1" />
+
         <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="FOOD TRUCK 2" />
+
         <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="FOOD TRUCK 3" />
 
         <Button
             android:id="@+id/button9"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="FOOD TRUCK 4" />
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="Food truck 5" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50sp">
+        android:layout_height="50sp"
+        android:layout_gravity="center_horizontal">
 
         <Button
             android:id="@+id/HOME"
-            android:layout_width="wrap_content"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="4dp"
-            android:layout_marginStart="8dp"
+            android:layout_marginLeft="10dp"
             android:text="Home"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent" />
+           />
 
         <Button
             android:id="@+id/profile"
-            android:layout_width="wrap_content"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="4dp"
-            android:layout_marginStart="8dp"
-            android:text="Profile"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toRightOf="@+id/HOME1" />
+            android:text="Profile" />
 
         <Button
             android:id="@+id/ORDER"
-            android:layout_width="wrap_content"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="4dp"
-            android:layout_marginStart="8dp"
             android:text="order"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toRightOf="@+id/profile" />
+/>
 
 
         <Button
             android:id="@+id/SETTING"
-            android:layout_width="wrap_content"
+            android:layout_width="90dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="4dp"
-            android:layout_marginStart="8dp"
             android:text="Setting"
-            app:layout_constraintLeft_toRightOf="@+id/ORDER"
-            tools:layout_editor_absoluteY="455dp" />
+ />
     </LinearLayout>
 
 </LinearLayout>

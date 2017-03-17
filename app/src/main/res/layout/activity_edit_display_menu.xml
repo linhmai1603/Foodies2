@@ -6,14 +6,16 @@
     android:layout_height="match_parent"
     tools:context="com.example.kpos7.Foodies.EditDisplayMenu">
 
-    <EditText
+    <TextView
         android:id="@+id/editText5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="198dp"
+        android:layout_height="32dp"
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Menu"
+        android:text="Menu:"
+        android:textSize="30dp"
+        app:layout_constraintHorizontal_bias="0.381"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -62,4 +64,22 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="260dp" />
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Example"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPDATE"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="358dp" />
 </android.support.constraint.ConstraintLayout>

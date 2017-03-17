@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.kpos7.Foodies.DisplayOrders">
-    <EditText
+    <TextView
         android:id="@+id/editText"
         android:layout_width="303dp"
         android:layout_height="43dp"
@@ -17,9 +17,10 @@
         android:text="#1) Joe Riggs ordered a number 4."
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="20dp"/>
 
-    <EditText
+    <TextView
         android:id="@+id/editText2"
         android:layout_width="304dp"
         android:layout_height="44dp"
@@ -29,9 +30,10 @@
         android:text="#2) Kathy C. ordered a number 7."
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        android:textSize="20dp"/>
 
-    <EditText
+    <TextView
         android:id="@+id/editText3"
         android:layout_width="303dp"
         android:layout_height="43dp"
@@ -41,6 +43,7 @@
         android:text="#3) 003 ordered a #6"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        android:textSize="20dp"/>
     
 </android.support.constraint.ConstraintLayout>

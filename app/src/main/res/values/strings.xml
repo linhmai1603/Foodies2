@@ -9,7 +9,7 @@
     <string name="textview_forgetpassword">I have forgotten my password.</string>
     <string name="title_activity_main_vendor_screen">MainVendorScreen</string>
     <string name="user_name">User Name</string>
-    <string name="payment_method">Cash</string>
+    <string name="payment_method">Balance</string>
     <string name="button_editMenu">Edit Menu</string>
     <string name="button_logout">Logout</string>
     <string name="button_editLocation">Edit Location</string>
