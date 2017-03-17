@@ -31,7 +31,7 @@ public class Settings extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                startActivity(new Intent("com.example.bmmkac.foo.Profile"));
+                startActivity(new Intent("com.example.kpos7.loginscreen.Profile"));
                 //            finish();
             }
         });
