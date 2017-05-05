@@ -37,8 +37,8 @@
             android:layout_width="match_parent"
             android:layout_height="110dp"
             android:visibility="visible"
-            android:scaleType="centerCrop"
-            android:src="@drawable/map" />
+            android:scaleType="centerCrop"/>
+            //android:src="@drawable/map" />
 
         <Button
             android:id="@+id/map1234"
@@ -56,23 +56,23 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="FOOD TRUCK1" />
+            android:text="Halel Cart  1" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="FOOD TRUCK 2" />
+            android:text="Halel Cart 2" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="FOOD TRUCK 3" />
+            android:text="Halel Cart 3" />
 
         <Button
             android:id="@+id/button9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="FOOD TRUCK 4" />
+            android:text="Halel Cart 4" />
 
         <Button
             android:layout_width="match_parent"
