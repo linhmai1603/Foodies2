@@ -24,7 +24,7 @@ public class LogInScreen extends AppCompatActivity {
                 String password = "";
                 username = usernameEdit.getText().toString().toLowerCase();
                 password = passwordEdit.getText().toString().toLowerCase();
-                if (((username.equals("test") && password.equals("testusing")) || (username.equals("sonny") && password.equals("testsonny")))){
+                if (((username.equals("test") && password.equals("testusing")) || (username.equals("sonny") && password.equals("sonny")))){
                     startActivity(new Intent("android.intent.action.SellerBuyerSelection"));
                 }else{
                     passwordEdit.setError("Username or password is incorrect", null);
