@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Login Screen</string>
+    <string name="app_name">Foodies</string>
     <string name="foodies_name">Foodies</string>
     <string name="simpleline_name">Simple mobile application for Drexel.</string>
     <string name="or_text">or</string>
@@ -15,4 +15,6 @@
     <string name="button_editLocation">Edit Location</string>
     <string name="button_orders">Orders</string>
     <string name="buttoon_reviews">Reviews</string>
+    <string name="thumbnail">thumbnail</string>
+    <string name="order">order</string>
 </resources>

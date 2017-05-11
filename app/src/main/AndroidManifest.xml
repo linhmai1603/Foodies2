@@ -2,20 +2,22 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.kpos7.Foodies">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.kpos7.Foodies.LogInScreen">
+        <activity android:name=".LogInScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.kpos7.Foodies.SellerBuyerSelectionScreen">
+        <activity android:name=".SellerBuyerSelectionScreen">
             <intent-filter>
                 <action android:name="android.intent.action.SellerBuyerSelection" />
 
@@ -23,22 +25,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.kpos7.Foodies.MainVendorScreen"
-            android:parentActivityName="com.example.kpos7.Foodies.SellerBuyerSelectionScreen">
+            android:name=".MainVendorScreen"
+            android:parentActivityName=".SellerBuyerSelectionScreen">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.kpos7.Foodies.SellerBuyerSelectionScreen" />
         </activity>
         <activity
-            android:name="com.example.kpos7.Foodies.MainCustomerScreen"
-            android:parentActivityName="com.example.kpos7.Foodies.SellerBuyerSelectionScreen">
+            android:name=".MainCustomerScreen"
+            android:parentActivityName=".SellerBuyerSelectionScreen">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.kpos7.Foodies.SellerBuyerSelectionScreen" />
         </activity>
         <activity
-            android:name="com.example.kpos7.Foodies.DisplayOrders"
-            android:parentActivityName="com.example.kpos7.Foodies.MainVendorScreen">
+            android:name=".DisplayOrders"
+            android:parentActivityName=".MainVendorScreen">
 
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
@@ -46,8 +48,8 @@
                 android:value="com.example.kpos7.Foodies.MainVendorScreen" />
         </activity>
         <activity
-            android:name="com.example.kpos7.Foodies.EditDisplayMenu"
-            android:parentActivityName="com.example.kpos7.Foodies.MainVendorScreen">
+            android:name=".EditDisplayMenu"
+            android:parentActivityName=".MainVendorScreen">
 
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
@@ -55,8 +57,8 @@
                 android:value="com.example.kpos7.Foodies.MainVendorScreen" />
         </activity>
         <activity
-            android:name="com.example.kpos7.Foodies.EditDisplayLocation"
-            android:parentActivityName="com.example.kpos7.Foodies.MainVendorScreen">
+            android:name=".EditDisplayLocation"
+            android:parentActivityName=".MainVendorScreen">
 
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
@@ -64,41 +66,50 @@
                 android:value="com.example.kpos7.Foodies.MainVendorScreen" />
         </activity>
         <activity
-            android:name="com.example.kpos7.Foodies.DisplayReviewRatings"
-            android:parentActivityName="com.example.kpos7.Foodies.MainVendorScreen">
+            android:name=".DisplayReviewRatings"
+            android:parentActivityName=".MainVendorScreen">
 
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.kpos7.Foodies.MainVendorScreen" />
         </activity>
-        <activity android:name="com.example.kpos7.Foodies.Profile">
+        <activity android:name=".Profile">
             <intent-filter>
                 <action android:name="com.example.kpos7.loginscreen.Profile" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.kpos7.Foodies.Map">
+        <activity android:name=".Map">
             <intent-filter>
                 <action android:name="com.example.kpos7.loginscreen.map" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.kpos7.Foodies.Settings">
+        <activity android:name=".Settings">
             <intent-filter>
                 <action android:name="com.example.kpos7.loginscreen.settings" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.kpos7.Foodies.Order">
+        <activity android:name=".Order">
             <intent-filter>
                 <action android:name="com.example.kpos7.loginscreen.order" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".Food_truck_1">
+            <intent-filter>
+                <action android:name="com.example.kpos7.loginscreen.Food_truck_1" />
 
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RecipeDetailActivity"></activity>
     </application>
 
 </manifest>
