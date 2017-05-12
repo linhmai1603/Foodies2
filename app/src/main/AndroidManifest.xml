@@ -110,7 +110,7 @@
             <intent-filter>
                 <action android:name="com.example.kpos7.loginscreen.Food_truck_1" />
 
-                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".RecipeDetailActivity">
