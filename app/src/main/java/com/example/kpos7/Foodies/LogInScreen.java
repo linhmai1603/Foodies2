@@ -1,6 +1,7 @@
 package com.example.kpos7.Foodies;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,6 +9,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 
 public class LogInScreen extends AppCompatActivity {
+    //MediaPlayer button_sound;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -11,6 +11,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.kpos7.Foodies.LogInScreen">
 
+
     <LinearLayout
         android:layout_gravity="center_horizontal"
         android:orientation="vertical"
