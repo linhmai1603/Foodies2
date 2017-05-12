@@ -22,8 +22,6 @@ public class LogInScreen extends AppCompatActivity {
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               // button_sound = MediaPlayer.create(LogInScreen.this, R.raw.but_click);
-
                 String username = "";
                 String password = "";
                 username = usernameEdit.getText().toString().toLowerCase();
