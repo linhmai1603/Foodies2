@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.kpos7.Foodies">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -26,14 +27,16 @@
         </activity>
         <activity
             android:name=".MainVendorScreen"
-            android:parentActivityName=".SellerBuyerSelectionScreen">
+            android:parentActivityName=".SellerBuyerSelectionScreen"
+            tools:targetApi="jelly_bean">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.kpos7.Foodies.SellerBuyerSelectionScreen" />
         </activity>
         <activity
             android:name=".MainCustomerScreen"
-            android:parentActivityName=".SellerBuyerSelectionScreen">
+            android:parentActivityName=".SellerBuyerSelectionScreen"
+            tools:targetApi="jelly_bean">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.kpos7.Foodies.SellerBuyerSelectionScreen" />
@@ -67,7 +70,8 @@
         </activity>
         <activity
             android:name=".DisplayReviewRatings"
-            android:parentActivityName=".MainVendorScreen">
+            android:parentActivityName=".MainVendorScreen"
+            tools:targetApi="jelly_bean">
 
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
@@ -109,7 +113,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".RecipeDetailActivity"></activity>
+        <activity android:name=".RecipeDetailActivity">
+            <intent-filter>
+                <action android:name="com.example.kpos7.loginscreen.RecipeDetailActivity" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

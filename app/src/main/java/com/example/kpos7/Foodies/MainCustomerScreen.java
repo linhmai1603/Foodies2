@@ -67,8 +67,7 @@ public class MainCustomerScreen extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                startActivity(new Intent("com.example.kpos7.loginscreen.Food_truck_1"));
-                //            finish();
+                startActivity(new Intent(getApplicationContext(), Food_truck_1.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
             }
         });
     }
