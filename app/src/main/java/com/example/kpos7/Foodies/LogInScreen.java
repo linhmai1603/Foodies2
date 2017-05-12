@@ -23,7 +23,7 @@ public class LogInScreen extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                // button_sound = MediaPlayer.create(LogInScreen.this, R.raw.but_click);
-                //button_sound.start();
+
                 String username = "";
                 String password = "";
                 username = usernameEdit.getText().toString().toLowerCase();
