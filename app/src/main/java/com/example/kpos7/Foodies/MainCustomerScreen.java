@@ -17,6 +17,7 @@ public class MainCustomerScreen extends AppCompatActivity {
         Button order = (Button) findViewById(R.id.ORDER);
         Button SETTING = (Button) findViewById(R.id.SETTING);
         Button map = (Button) findViewById(R.id.map1234);
+        Button FT1 = (Button) findViewById(R.id.ft1);
 
         home.setOnClickListener(new View.OnClickListener() {
 
@@ -58,6 +59,15 @@ public class MainCustomerScreen extends AppCompatActivity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 startActivity(new Intent("com.example.kpos7.loginscreen.map"));
+                //            finish();
+            }
+        });
+        FT1.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                startActivity(new Intent("com.example.kpos7.loginscreen.Food_truck_1"));
                 //            finish();
             }
         });
