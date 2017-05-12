@@ -1,26 +1,18 @@
 package com.example.kpos7.Foodies;
 
+import android.content.Context;
 import android.graphics.Typeface;
-import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ListView;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-import java.util.ArrayList;
-import android.widget.*;
-import android.widget.AdapterView.OnItemClickListener;
-import android.content.Intent;
-import android.content.Context;
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
-import java.io.IOException;
-import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class RecipeAdapter extends BaseAdapter {
