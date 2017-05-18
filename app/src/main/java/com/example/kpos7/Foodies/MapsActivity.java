@@ -32,9 +32,19 @@ public class MapsActivity extends AppCompatActivity
         OnMapReadyCallback,
         ActivityCompat.OnRequestPermissionsResultCallback {
 
-    private GoogleMap mMap;
+    /**
+     * Request code for location permission request.
+     *
+     * @see #onRequestPermissionsResult(int, String[], int[])
+     */
     private static final int LOCATION_PERMISSION_REQUEST_CODE = 1;
+
+    /**
+     * Flag indicating whether a requested permission has been denied after returning in
+     * {@link #onRequestPermissionsResult(int, String[], int[])}.
+     */
     private boolean mPermissionDenied = false;
+    private GoogleMap mMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -85,6 +95,7 @@ public class MapsActivity extends AppCompatActivity
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
     }
+
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
@@ -152,7 +163,6 @@ public class MapsActivity extends AppCompatActivity
         PermissionUtils.PermissionDeniedDialog
                 .newInstance(true).show(getSupportFragmentManager(), "dialog");
     }
-
 
     public void onSearch(View view) {
         EditText searchText = (EditText) findViewById(R.id.address);
