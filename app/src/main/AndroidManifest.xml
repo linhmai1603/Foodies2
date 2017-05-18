@@ -18,6 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".SellerBuyerSelectionScreen">
             <intent-filter>
                 <action android:name="android.intent.action.SellerBuyerSelection" />
@@ -25,6 +26,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".MainVendorScreen"
             android:parentActivityName=".SellerBuyerSelectionScreen"
@@ -81,13 +83,6 @@
         <activity android:name=".Profile">
             <intent-filter>
                 <action android:name="com.example.kpos7.loginscreen.Profile" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".Map">
-            <intent-filter>
-                <action android:name="com.example.kpos7.loginscreen.map" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
