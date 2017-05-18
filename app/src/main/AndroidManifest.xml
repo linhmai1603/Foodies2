@@ -5,19 +5,6 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
-    <!--
-         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
-         Google Maps Android API v2, but you must specify either coarse or fine
-         location permissions for the 'MyLocation' functionality. 
-    -->
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission
-        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-        android:maxSdkVersion="22" />
-    <uses-permission
-        android:name="android.permission.READ_EXTERNAL_STORAGE"
-        android:maxSdkVersion="22" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -54,7 +41,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.kpos7.Foodies.SellerBuyerSelectionScreen" />
         </activity>
-
         <activity
             android:name=".DisplayOrders"
             android:parentActivityName=".MainVendorScreen">
@@ -64,7 +50,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.kpos7.Foodies.MainVendorScreen" />
         </activity>
-
         <activity
             android:name=".EditDisplayMenu"
             android:parentActivityName=".MainVendorScreen">
@@ -100,6 +85,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".Map">
+            <intent-filter>
+                <action android:name="com.example.kpos7.loginscreen.map" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".Settings">
             <intent-filter>
                 <action android:name="com.example.kpos7.loginscreen.settings" />
@@ -114,7 +106,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Food_truck_1">
             <intent-filter>
                 <action android:name="com.example.kpos7.loginscreen.Food_truck_1" />
@@ -122,36 +113,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".RecipeDetailActivity">
             <intent-filter>
                 <action android:name="com.example.kpos7.loginscreen.RecipeDetailActivity" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <!--
-             The API key for Google Maps-based APIs is defined as a string resource.
-             (See the file "res/values/google_maps_api.xml").
-             Note that the API key is linked to the encryption key used to sign the APK.
-             You need a different API key for each encryption key, including the release key that is used to
-             sign the APK for publishing.
-             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
-        -->
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDpiqUTucBpLWT5r44lr-7wzg3rPZFlCgg" />
-
-        <activity
-            android:name=".MapsActivity"
-            android:label="@string/title_activity_maps">
-            <intent-filter>
-
-            <action android:name="com.example.kpos7.loginscreen.MapsActivity" />
-
-            <category android:name="android.intent.category.DEFAULT" />
-
             </intent-filter>
         </activity>
     </application>
