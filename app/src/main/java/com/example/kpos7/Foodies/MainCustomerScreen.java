@@ -58,7 +58,7 @@ public class MainCustomerScreen extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                startActivity(new Intent("com.example.kpos7.loginscreen.map"));
+                startActivity(new Intent("com.example.kpos7.loginscreen.MapsActivity"));
                 //            finish();
             }
         });
